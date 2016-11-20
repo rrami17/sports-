@@ -15,7 +15,7 @@
   <tbody>
     <% @teams.each do |team| %>
       <tr>
-        <td><%= team.name %></a></td>
+        <td><a href = "http://localhost:3000/players"><%= team.name %></a></td>
         <td><%= team.location %></td>
         <td><%= team.division %></td>
         <td><%= link_to 'Show', team %></td>

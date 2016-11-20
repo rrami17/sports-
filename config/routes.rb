@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :teams
   get 'baseball/homepage'
 
+
+
   get 'baseball/teams'
 
   get 'baseball/players'

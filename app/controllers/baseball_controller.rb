@@ -7,4 +7,5 @@ class BaseballController < ApplicationController
 
   def players
   end
+
 end

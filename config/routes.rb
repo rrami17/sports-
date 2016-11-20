@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :players
+  resources :teams
   get 'baseball/homepage'
 
   get 'baseball/teams'

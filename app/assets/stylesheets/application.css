@@ -1,4 +1,29 @@
 .navbar{
   text-align: center;
-  color: navy;
+  color: red;
+  background-color: navy;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li{
+  text-align: center;
+  display: inline-block;
+  color: white;
+
+}
+
+.navbar h1{
+  float: center;
+  font-size: 2em;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
 }
